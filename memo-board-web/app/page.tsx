@@ -25,7 +25,7 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 5;
 
-  const API_URL = "http://localhost:8080/api/memos";
+  const API_URL = "https://srt-memo-board.onrender.com/api/memos";
 
   const fetchMemos = async () => {
     try {
